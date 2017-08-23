@@ -1,0 +1,84 @@
+body{
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+    /*min-width: 1200px;*/
+    background: #eaeaea;
+}
+.sq-page-header{
+    background: #333;
+    height: 130px;
+    color: #fff;
+}
+.sq-page-logo{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.sq-content{
+    position: relative;
+    top: -50px;
+    min-height: 1000px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.sq-title-1,.sq-title-2,.sq-title-3,.sq-title-4,.sq-title-5{
+    margin: 15px 0;
+    min-width: 150px;
+    max-width: 250px;
+    position: relative;
+    left: -25px;
+    background: #428bca;
+    color: #fff;
+    padding-left: 25px;
+}
+.sq-title-1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.sq-title-2{
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+}
+.sq-title-3{
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+}
+.sq-title-4{
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.sq-title-5{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sq-title-1:before,.sq-title-2:before,.sq-title-3:before,.sq-title-4:before,.sq-title-5:before{
+    content: '';
+    position: absolute;
+    border-left: 10px solid transparent;
+    left: 0;
+}
+.sq-title-1:before{
+    bottom: -10px;
+    border-top: 10px solid #555;
+}
+.sq-title-2:before{
+    bottom: -9px;
+    border-top: 9px solid #555;
+}
+.sq-title-3:before{
+    bottom: -8px;
+    border-top: 8px solid #555;
+}
+.sq-title-4:before{
+    bottom: -7px;
+    border-top: 7px solid #555;
+}
+.sq-title-5:before{
+    bottom: -6px;
+    border-top: 6px solid #555;
+}

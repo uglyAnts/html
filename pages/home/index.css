@@ -1,0 +1,49 @@
+body{
+    background: #E7ECEF;
+}
+.bg-white{
+    background-color: #fff;
+}
+.mg-30{
+    margin-bottom: 30px;
+}
+.sq-header{
+    color: #fff;
+    height: 40px;
+    background: #393D49;
+}
+.sq-header .row>div{
+    height: 40px;
+    line-height: 40px;
+}
+.sq-nav{
+    height: 50px;
+    box-shadow: 0 2px 4px #555;
+}
+.navbar{
+    border: none;
+    margin-bottom: 0;
+}
+.sq-content{
+    padding: 30px 0 50px;
+}
+.sq-banner{
+    height: 150px;
+}
+.sq-article{
+    min-height: 800px;
+}
+.sq-author{
+    height: 300px;
+}
+
+.sq-footer{
+    height: 180px;
+    background-color: #2a2730;
+}
+.sq-art-item{
+    padding: 20px;
+}
+.sq-comment{
+    height: 800px;
+}
