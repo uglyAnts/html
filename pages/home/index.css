@@ -34,7 +34,41 @@ body{
     min-height: 800px;
 }
 .sq-author{
-    height: 300px;
+    position: relative;
+    padding: 15px;
+}
+.sq-author-name{
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    background-color: #D13030;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px 0 18px;
+    color: #fff;
+}
+.sq-author-name:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-left: 8px solid transparent;
+    border-top: 5px solid #555;
+}
+.sq-author-head{
+    height: 61px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+}
+.sq-author-head>div{
+    font-size: 12px;
+    padding-top: 38px;
+}
+.sq-author>p{
+    word-break: break-all;
+    text-indent: 2em;
+    text-align: justify;
 }
 
 .sq-footer{

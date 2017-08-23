@@ -5,7 +5,7 @@
  * Date: 2017/8/12
  * Time: 20:11
  */
-$userName='admin';
+$userName='志向成为一名专业的全栈开发工程师，因为专注，所以专业。';
 
 ?>
 <!doctype html>
@@ -22,7 +22,7 @@ $userName='admin';
 <div class="sq-header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4">aqdou</div>
+            <div class="col-xs-4">全栈开发</div>
             <div class="col-xs-4"></div>
             <div class="col-xs-4"></div>
         </div>
@@ -32,7 +32,6 @@ $userName='admin';
 <div class="sq-nav bg-white">
     <div class="container">
         <div class="row">
-            <div class="row">
                 <nav class="navbar navbar-default bg-white">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sqNav" aria-expanded="false">
@@ -58,7 +57,6 @@ $userName='admin';
                     </div>
                 </nav>
             </div>
-        </div>
     </div>
 </div>
 
@@ -78,7 +76,17 @@ $userName='admin';
             </div>
             <div class="col-md-3">
                 <div class="sq-author bg-white">
-
+                    <div class="sq-author-name">
+                        两只哈士奇
+                    </div>
+                    <div class="sq-author-head">
+                        <div class="pull-left">
+                            修德·博学·求实·创新
+                        </div>
+                        <img class="pull-right" src="pages/home/img/head.png">
+                    </div>
+                    <p>两只哈士奇，毕业于重庆邮电大学计算机科学与技术专业，一直从事前端开发工作。生活之余主要研究“拍黄片”、MySQL数据库设计、Linux操作系统。自封前端大屌、“拍片”小能手、MySQL小霸王、Linux学习机、Bug终结者...</p>
+                    <p>志向成为一名专业的全栈开发工程师，因为专注，所以专业。</p>
                 </div>
             </div>
         </div>
