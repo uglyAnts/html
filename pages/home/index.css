@@ -4,8 +4,11 @@ body{
 .bg-white{
     background-color: #fff;
 }
-.mg-30{
-    margin-bottom: 30px;
+.vertical-gap{
+    margin-bottom: 15px;
+}
+.border-b-none{
+    border-bottom: none!important;
 }
 .sq-header{
     color: #fff;
@@ -23,16 +26,30 @@ body{
 .navbar{
     border: none;
     margin-bottom: 0;
+    z-index: 9;
+    border-bottom: 1px solid #eee;
 }
 .sq-content{
-    padding: 30px 0 50px;
+    padding: 15px 0;
 }
 .sq-banner{
     height: 150px;
 }
+
+
 .sq-article{
-    min-height: 800px;
+    padding: 5px 20px;
+    min-height: 300px;
 }
+.sq-article>div{
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+
+
+
 .sq-author{
     position: relative;
     padding: 15px;
@@ -71,13 +88,44 @@ body{
     text-align: justify;
 }
 
+
+.sq-left-tag{
+    border-radius: 2px;
+    border: 1px solid #ddd;
+}
+.sq-left-tag>.title{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 14px;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.sq-left-tag>.content{
+    min-height: 150px;
+    background-color: #fff;
+}
+
+.article-list-tree{
+    padding: 0 0 15px 10px;
+    overflow: auto;
+}
+
 .sq-footer{
     height: 180px;
     background-color: #2a2730;
 }
-.sq-art-item{
-    padding: 20px;
+
+@media (min-width: 768px){
+    .vertical-gap{
+        margin-bottom: 30px;
+    }
+    .sq-content{
+        padding: 30px 0;
+    }
+    .navbar{
+        border-bottom: none;
+    }
 }
-.sq-comment{
-    height: 800px;
+@media (min-width: 992px){
+
 }
