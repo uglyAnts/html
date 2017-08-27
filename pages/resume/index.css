@@ -1,0 +1,106 @@
+body{
+
+}
+
+.sq-banner{
+    padding: 1em 0;
+    color: #eee;
+    background-color: #222;
+}
+.sq-area{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.sq-area .col-xs-12{
+    min-height: 300px;
+}
+.sq-item-img{
+    transition: all 2s;
+    width: 30%;
+    height: 100px;
+    opacity: 0;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+.sq-recommend{
+    padding: 30px 0 15px;
+}
+.sq-about-me{
+    padding: 2px 20px 20px;
+    margin-bottom: 15px;
+    background-color: #eee;
+    border-top: 2px solid #C20C0C;
+}
+.sq-about-me>p{
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+
+.sq-skills{
+    color: #fff;
+    padding: 15px;
+    background-color: #337ab7;
+}
+.sq-skill{
+
+}
+
+
+
+
+
+.sq-lang{
+    padding-bottom: 2em;
+}
+.sq-lang h4{
+    margin: 5px 0;
+}
+.sq-lang .progress{
+    height: 0.5em;
+    margin-bottom: 10px;
+}
+@media (min-width:768px){
+    .sq-lang{
+        padding-bottom: 60px;
+    }
+    .sq-lang h4{
+        margin: 60px 0 10px;
+    }
+    .sq-lang .progress{
+        height: 20px;
+    }
+
+
+
+    .sq-recommend{
+        padding: 50px 0 50px;
+    }
+    .sq-about-me{
+        margin: 0 auto;
+        width: 70%;
+        height: 300px;
+        border: 1px solid #ddd;
+        background-color: transparent;
+    }
+    .sq-about-me>p{
+        line-height: 30px;
+    }
+
+
+    .sq-skills{
+        padding: 20px 0 50px;
+    }
+    .sq-skill{
+        height: 300px;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        padding: 20px;
+    }
+}
